@@ -53,6 +53,42 @@
           - "rust-gitaudit-windows-x86_64.exe"
   detail: null
 
+- name: quake3rcon
+  description: administrate quake3arena servers via RCON protocol
+  source:
+    Github:
+      owner: DanceMore
+      repo: rust-quake3rcon
+  targets:
+    - LinuxAmd64:
+        artifact_templates:
+          - "quake3rcon-linux-x86_64"
+    - MacOS:
+        artifact_templates:
+          - "quake3rcon-darwin-x86_64"
+    - Windows:
+        artifact_templates:
+          - "quake3rcon-windows-x86_64.exe"
+  detail: null
+
+- name: quicktotp
+  description: generate cute, disposable usernames
+  source:
+    Github:
+      owner: DanceMore
+      repo: rust-quicktotp
+  targets:
+    - LinuxAmd64:
+        artifact_templates:
+          - "quicktotp-linux-x86_64"
+    - MacOS:
+        artifact_templates:
+          - "quicktotp-darwin-x86_64"
+    - Windows:
+        artifact_templates:
+          - "quicktotp-windows-x86_64.exe"
+  detail: null
+
 - name: usernamegen
   description: generate cute, disposable usernames
   source:
