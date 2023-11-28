@@ -52,3 +52,21 @@
         artifact_templates:
           - "rust-gitaudit-windows-x86_64.exe"
   detail: null
+
+- name: usernamegen
+  description: generate cute, disposable usernames
+  source:
+    Github:
+      owner: DanceMore
+      repo: rust-usernamegen
+  targets:
+    - LinuxAmd64:
+        artifact_templates:
+          - "usernamegen-linux-x86_64"
+    - MacOS:
+        artifact_templates:
+          - "usernamegen-darwin-x86_64"
+    - Windows:
+        artifact_templates:
+          - "usernamegen-windows-x86_64.exe"
+  detail: null
