@@ -1,0 +1,18 @@
+---
+- name: jukectl
+  description: jukebox managment cli
+  source:
+    Github:
+      owner: DanceMore
+      repo: jukectl
+  targets:
+    - LinuxAmd64:
+        artifact_templates:
+          - "jukectl-linux-x86_64"
+    - MacOS:
+        artifact_templates:
+          - "jukectl-darwin-x86_64"
+    - Windows:
+        artifact_templates:
+          - "jukectl-windows-x86_64.exe"
+  detail: null
