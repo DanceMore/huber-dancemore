@@ -34,3 +34,21 @@
         artifact_templates:
           - "mimesorter-windows-x86_64.exe"
   detail: null
+
+- name: rust-gitaudit
+  description: help keep your code check in
+  source:
+    Github:
+      owner: DanceMore
+      repo: rust-gitaudit
+  targets:
+    - LinuxAmd64:
+        artifact_templates:
+          - "rust-gitaudit-linux-x86_64"
+    - MacOS:
+        artifact_templates:
+          - "rust-gitaudit-darwin-x86_64"
+    - Windows:
+        artifact_templates:
+          - "rust-gitaudit-windows-x86_64.exe"
+  detail: null
