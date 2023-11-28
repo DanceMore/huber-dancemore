@@ -16,3 +16,21 @@
         artifact_templates:
           - "jukectl-windows-x86_64.exe"
   detail: null
+
+- name: mimesorter
+  description: sort files based on MIME type, ideal for your Downloads folder
+  source:
+    Github:
+      owner: DanceMore
+      repo: rust-mimesorter
+  targets:
+    - LinuxAmd64:
+        artifact_templates:
+          - "mimesorter-linux-x86_64"
+    - MacOS:
+        artifact_templates:
+          - "mimesorter-darwin-x86_64"
+    - Windows:
+        artifact_templates:
+          - "mimesorter-windows-x86_64.exe"
+  detail: null
