@@ -35,7 +35,7 @@
           - "mimesorter-windows-x86_64.exe"
   detail: null
 
-- name: rust-gitaudit
+- name: gitgud
   description: help keep your code check in
   source:
     Github:
