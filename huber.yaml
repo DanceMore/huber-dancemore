@@ -45,20 +45,20 @@
   source:
     Github:
       owner: DanceMore
-      repo: rust-gitaudit
+      repo: gitgud
   targets:
     - LinuxAmd64:
         artifact_templates:
-          - "rust-gitaudit-linux-x86_64"
+          - "gitgud-linux-x86_64"
     - MacOS:
         artifact_templates:
-          - "rust-gitaudit-darwin-x86_64"
+          - "gitgud-darwin-x86_64"
     - MacOSArm64:
         artifact_templates:
-          - "rust-gitaudit-darwin-arm64"
+          - "gitgud-darwin-arm64"
     - Windows:
         artifact_templates:
-          - "rust-gitaudit-windows-x86_64.exe"
+          - "gitgud-windows-x86_64.exe"
   detail: null
 
 - name: quake3rcon
