@@ -1,6 +1,5 @@
----
 - name: jukectl
-  description: jukebox managment cli
+  description: jukebox management cli
   source:
     Github:
       owner: DanceMore
@@ -12,6 +11,9 @@
     - MacOS:
         artifact_templates:
           - "jukectl-darwin-x86_64"
+    - MacOSArm64:
+        artifact_templates:
+          - "jukectl-darwin-arm64"
     - Windows:
         artifact_templates:
           - "jukectl-windows-x86_64.exe"
@@ -30,6 +32,9 @@
     - MacOS:
         artifact_templates:
           - "mimesorter-darwin-x86_64"
+    - MacOSArm64:
+        artifact_templates:
+          - "mimesorter-darwin-arm64"
     - Windows:
         artifact_templates:
           - "mimesorter-windows-x86_64.exe"
@@ -48,6 +53,9 @@
     - MacOS:
         artifact_templates:
           - "rust-gitaudit-darwin-x86_64"
+    - MacOSArm64:
+        artifact_templates:
+          - "rust-gitaudit-darwin-arm64"
     - Windows:
         artifact_templates:
           - "rust-gitaudit-windows-x86_64.exe"
@@ -66,6 +74,9 @@
     - MacOS:
         artifact_templates:
           - "quake3rcon-darwin-x86_64"
+    - MacOSArm64:
+        artifact_templates:
+          - "quake3rcon-darwin-arm64"
     - Windows:
         artifact_templates:
           - "quake3rcon-windows-x86_64.exe"
@@ -84,6 +95,9 @@
     - MacOS:
         artifact_templates:
           - "quicktotp-darwin-x86_64"
+    - MacOSArm64:
+        artifact_templates:
+          - "quicktotp-darwin-arm64"
     - Windows:
         artifact_templates:
           - "quicktotp-windows-x86_64.exe"
@@ -102,6 +116,9 @@
     - MacOS:
         artifact_templates:
           - "usernamegen-darwin-x86_64"
+    - MacOSArm64:
+        artifact_templates:
+          - "usernamegen-darwin-arm64"
     - Windows:
         artifact_templates:
           - "usernamegen-windows-x86_64.exe"
