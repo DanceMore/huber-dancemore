@@ -24,7 +24,7 @@
   source:
     Github:
       owner: DanceMore
-      repo: rust-mimesorter
+      repo: dancemore_mimesorter
   targets:
     - LinuxAmd64:
         artifact_templates:
