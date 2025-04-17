@@ -13,7 +13,7 @@
           - "jukectl-darwin-x86_64-{version}"
     - MacOSArm64:
         artifact_templates:
-          - "jukectl-darwin-arm64-(version_"
+          - "jukectl-darwin-arm64-(version}"
     - Windows:
         artifact_templates:
           - "jukectl-windows-x86_64-{version}.exe"
