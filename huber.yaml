@@ -7,16 +7,16 @@
   targets:
     - LinuxAmd64:
         artifact_templates:
-          - "jukectl-v{version}-linux-x86_64"
+          - "jukectl-linux-x86_64"
     - MacOS:
         artifact_templates:
-          - "jukectl-v{version}-darwin-x86_64"
+          - "jukectl-darwin-x86_64"
     - MacOSArm64:
         artifact_templates:
-          - "jukectl-v{version}-darwin-arm64"
+          - "jukectl-darwin-arm64"
     - Windows:
         artifact_templates:
-          - "jukectl-v{version}-windows-x86_64.exe"
+          - "jukectl-windows-x86_64.exe"
   detail: null
 
 - name: mimesorter
